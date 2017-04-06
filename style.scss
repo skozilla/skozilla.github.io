@@ -296,18 +296,22 @@ footer {
 table{
     border-collapse: collapse;
     border-spacing: 0;
-    border:2px solid #ff0000;
+    border:2px solid #000000;
+
 }
 
 th{
     border:2px solid #000000;
+    padding: 5px;
 }
 
 td{
     border:1px solid #000000;
+    padding: 5px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+@import "bigfoot-default";
